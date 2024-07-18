@@ -1,7 +1,4 @@
 import { Db } from 'mongodb';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 
 export const searchController = async (db: Db, query: string) => {
